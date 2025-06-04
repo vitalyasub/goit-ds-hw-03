@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "mongo-crud-app"
+version = "0.1.0"
+description = "CRUD API for cats with MongoDB and PyMongo"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pymongo = "^4.6.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
